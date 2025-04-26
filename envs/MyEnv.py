@@ -165,9 +165,9 @@ class TestOneApp(gym.Env):
             for deployment in self.deploymentList:
                 # 软件伸缩
                 predict = deployment.update_soft()
-                # update_predict = deployment.localhostSearch(predict)
-                # print("更新前："+str(predict))
-                # print("更新后："+str(update_predict))
+                update_predict = deployment.localhostSearch(predict)
+                print("更新前："+str(predict))
+                print("更新后："+str(update_predict))
 
     def step(self, action):
         print("step start")
