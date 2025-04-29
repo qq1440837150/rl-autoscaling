@@ -1,3 +1,3 @@
-1. Training phase run the `run.py` to start the RL training
-2. Testing phase run the `elastic.py` to start the RL testing and start the workload_generate\workload_generator.go to generate the workload
+1. Training phase run the `run.py`  to start the RL training
+2. Testing phase run the `elastic.py`  to start the RL testing and start the `workload_generate\workload_generator.go` to generate the workload
 3. The workload generate can use different dataset in the directory of `datasets`
